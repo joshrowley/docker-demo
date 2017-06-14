@@ -18,5 +18,3 @@ production:
   <<: *default
   database: blog_production
   host: <%= ENV['POSTGRES_HOST'] %>
-  username: blog
-  password: <%= ENV['BLOG_DATABASE_PASSWORD'] %>
